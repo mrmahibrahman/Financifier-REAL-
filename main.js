@@ -34,22 +34,14 @@ submit.addEventListener("click", submitForm2);
 let reset_global = document.getElementById("submit-btn_4")
 reset_global.addEventListener("click", submitForm3);
 
-//n1Elem.addEventListener('change', updateValue);
+n1Elem.addEventListener('change', updateValue);
 
 let reset_variable = 0;
 let itemsList = [];
 
-
-let input_needs = document.getElementById("allowance_needs");
-input_needs = 0;
-let verifier = document.getElementById("verifier");
-//let verifyBtn = document.getElementById("submit-btn_5");
-//verifyBtn.addEventListener("click", submitForm4);
-
-
-//function updateValue(e) {
-  //  totalCost.textContent = e.target.value;
-//}
+function updateValue(e) {
+    totalCost.textContent = e.target.value;
+}
 
 
 checkBtn.onclick = (event) => {
@@ -109,31 +101,16 @@ function submitForm2(event) {
     event.preventDefault();
 
     let user_item = document.getElementsByClassName("sub_item")
-    
 
     reset_variable = 0;  
     totalSum = 0;
 
-    input_needs = 0;
-
-
-    for (let i = 0; i < user_item.length; i++) {
-        input_needs = Number(input_needs)
-        verifier.innerHTML = input_needs;
-        totalSum = Number(totalSum) + Number(itemsList[i]);
-        totalCost.innerHTML = totalSum;
-
-       // if(input === totalSum) {
-         //   verifier.innerHTML = "You won't!"; 
-        //}
-
 
     for (let i = 0; i < user_item.length; i++) {
         totalSum = Number(totalSum) + Number(itemsList[i]);
         totalCost.innerHTML = totalSum;
-
     }
-
+    
  
 }
 
@@ -142,6 +119,4 @@ function submitForm3(event) {
 
     reset_variable = 0;
     totalCost.innerHTML = 0;
-}
-
 }
