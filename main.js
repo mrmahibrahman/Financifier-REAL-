@@ -108,7 +108,7 @@ function submitForm2(event) {
 
     for (let i = 0; i < user_item.length; i++) {
         totalSum = Number(totalSum) + Number(itemsList[i]);
-        totalCost.innerHTML = totalSum;
+        totalCost.innerHTML = `$${totalSum}`;
     }
     
  
