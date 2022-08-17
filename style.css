@@ -1,0 +1,270 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid rgb(39, 195, 96) 5px;
+    border-bottom: solid rgb(39, 195, 96) 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+    text-decoration-color: white;
+    background-color: rgb(38, 40, 41);
+}
+
+#logo {
+    font-size: 100%;
+    font-family: Lucida Handwriting;
+    color: white;
+    font-weight: 1000;
+}
+
+.items a{
+    font-size: 100%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    color: rgb(226, 220, 220);
+}
+
+.items:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+#main_img {
+   /* background-image: url("https://wallpaperaccess.com/full/862202.png"); */
+   background-image: url("images/city2.jpg");
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom: solid rgb(39, 195, 96) 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+#main_img {
+    position: relative; 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid rgb(39, 195, 96) 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main_img::before {    
+      content: "";
+      background-image: url("images/city2.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+#main_1 {
+  position: relative;
+  color: #ffffff;  
+  font-size: 35px;
+  line-height: 0.9;
+  text-align: center;
+  padding: 10px;
+  border-top: solid white;
+}
+
+.main_img_2 {
+    position: relative; 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid rgb(39, 195, 96) 5px;
+    border-bottom: solid rgb(39, 195, 96) 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main_img_2::before {
+    content: "";
+    background-image: url("https://live.staticflickr.com/4340/36280535712_761eb51e97_b.jpg");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.main_2 {
+    position: relative;
+    color: #ffffff;  
+    font-size: 35px;
+    line-height: 0.9;
+    text-align: center;
+    padding: 10px;
+    border-top: solid white;
+}
+
+#main_text {
+    padding: 100px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.9;
+    
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* box-shadow: 10px 10px 5px grey; */
+      margin-left: 40%; 
+    margin-right: 40%;  
+    border: solid rgb(39, 195, 96) 5px; 
+    
+}
+
+
+#goals-form {
+    padding: 100px;
+}
+
+#user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.user-item {
+    background-color: #475B63;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid rgb(39, 195, 96) 5px;
+}
+
+#contact_text {
+    padding: 100px;
+    font-size: 25px;
+}
+
+.main_img_3 {
+    background-color: rgb(42, 42, 42);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid rgb(255, 255, 255) 5px;
+   border-bottom: solid rgb(255, 255, 255) 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.main_3 {
+    color: white;
+    border-top: solid white 5px;
+    padding: 10px;
+}
+
+#max-goal{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+#submit-btn #income {
+    display: block;
+}
+
+#submit-btn #income {
+    display: block;
+}
+
+#needs_whole{
+    display:flex;
+    align-items: baseline;
+    margin-bottom:-30px;
+}
+
+
+#needs_whole{
+    display:flex;
+    align-items: baseline;
+    margin-bottom:-30px;
+}
+
+
+#needs_txt{
+    margin: 10px;
+}
+#wants_whole{
+    display:flex;
+    align-items: baseline;
+    margin-bottom:-30px;
+}
+
+#wants_txt{
+    margin: 10px;
+}
+
+#savings_whole{
+    display:flex;
+    align-items: baseline;
+    margin-bottom:-30px;
+}
+
+#savings_txt{
+    margin: 10px;
+}
+
+
+.description{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.9;
+
+}
+
+#description_main{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.9;
+}
+
+.bullet_points {
+    font-size: 18px;
+    font-family: Garamond;
+}
+
+/* #calculator_sub {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly;
+}  */
+
+#help-form {
+    color: black;
+    background-color: rgb(204, 163, 51);
+}
