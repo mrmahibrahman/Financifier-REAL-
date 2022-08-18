@@ -70,13 +70,16 @@ nav {
 }
 
 #main_1 {
-  position: relative;
-  color: #ffffff;  
-  font-size: 35px;
-  line-height: 0.9;
-  text-align: center;
-  padding: 10px;
-  border-top: solid white;
+    position: relative;
+    color: #ffffff;  
+    font-size: 35px;
+    line-height: 0.9;
+    text-align: center;
+    padding: 10px;
+    border-top: solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-shadow: 3px 3px #000000;
 }
 
 .main_img_2 {
@@ -110,12 +113,15 @@ nav {
     text-align: center;
     padding: 10px;
     border-top: solid white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-shadow: 3px 3px #000000;
 }
 
 #main_text {
     padding: 100px;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:monospace;
     color: white;
     line-height: 1.9;
     
@@ -240,6 +246,7 @@ nav {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     line-height: 1.9;
+    font-family:monospace;
 
 }
 
@@ -255,7 +262,7 @@ nav {
 
 .bullet_points {
     font-size: 18px;
-    font-family: Garamond;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* #calculator_sub {
@@ -267,6 +274,12 @@ nav {
 #help-form {
     color: black;
     background-color: rgb(204, 163, 51);
+    font-family:monospace;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media(max-width: 2560px) {
